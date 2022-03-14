@@ -2,7 +2,7 @@
 
 After completing this experiment you will be able to create mandalas to color like this one:
 
-<img src="https://fronkonstin.com/wp-content/uploads/2022/03/dkzwov.png?resize=1024%2C1024&ssl=1" width="350" align="middle">
+<img src="https://fronkonstin.com/wp-content/uploads/2022/03/dkzwov.png?resize=1024%2C1024&ssl=1" width="800" align="middle">
 
 ## Getting Started
 
