@@ -1,4 +1,4 @@
-# Mandalas
+# The Mondrianomies
 
 After completing this experiment you will be able to create mandalas to color like this one:
 
