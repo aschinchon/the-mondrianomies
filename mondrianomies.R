@@ -3,7 +3,7 @@ library(gsubfn)
 library(tidyverse)
 
 s <- sample(15:26, 1)
-v1 <- sample(c("F", "+", "-", "|"), size = s, replace = TRUE, prob = c(8,12,12,2))
+v1 <- sample(c("F", "+", "-"), size = s, replace = TRUE, prob = c(10,12,12))
 v2 <- sample("[]", 3, replace = TRUE) %>% str_extract_all("\\d*\\+|\\d*\\-|F|L|R|\\[|\\]|\\|") %>% unlist
 v3 <- sample(1:(s+1), size = length(v2)) %>% sort
 for(i in 1:length(v3)){
@@ -46,11 +46,8 @@ for (action in actions)
     x_current <- x_current + (ds^d_current) * cos(a_current * pi / 180)
     y_current <- y_current + (ds^d_current) * sin(a_current * pi / 180)
     d_current <- d_current + 1
-  }
-  if (action=="G") {
-    x_current <- x_current + (ds^d_current) * cos(a_current * pi / 180)
-    y_current <- y_current + (ds^d_current) * sin(a_current * pi / 180)
-    d_current <- d_current + 1
+
+    
   }
   if (action=="|") {
     lines <- lines %>% add_row(x = x_current,
@@ -199,5 +196,6 @@ if (width >= height) {
   
 name <- paste(sample(letters,6), collapse = "")
   
-ggsave(paste0(name,".png"), plot, width = w, height = h)
+ggsave(paste0("new/",name,".png"), plot, width = w, height = h)
   
+
