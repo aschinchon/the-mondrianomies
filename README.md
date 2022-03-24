@@ -1,6 +1,6 @@
 # The Mondrianomies
 
-After completing this experiment you will be able to create mandalas to color like this one:
+This project creates images like this, inspired in neoplasticism based on L-Systems:
 
 <img src="https://fronkonstin.com/wp-content/uploads/2022/03/dkzwov.png?resize=1024%2C1024&ssl=1" width="800" align="middle">
 
@@ -11,16 +11,15 @@ After completing this experiment you will be able to create mandalas to color li
 You will need to install the following packages (if you don't have them already):
 
 ```
-install.packages("dplyr")
-install.packages("ggplot2")
-install.packages("deldir")
+install.packages("gsubfn")
+install.packages("tidyverse")
 ```
 
 ## More info
 
-The code is simple and is implemented in R. Mathematics behind are also simple and involve basic trigonometry and Voronoi tesselations.
+The code is simple and is implemented in R.
 
-A complete explanation of the experiment can be found [at fronkonstin](https://fronkonstin.com/2018/02/14/mandalas/)
+A complete explanation of the experiment can be found [at fronkonstin](https://fronkonstin.com/2022/03/24/the-mondrianomies/)
 
 ## Authors
 
