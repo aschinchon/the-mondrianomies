@@ -19,7 +19,7 @@ install.packages("tidyverse")
 
 The code is simple and is implemented in R.
 
-A complete explanation of the experiment can be found [at fronkonstin](https://fronkonstin.com/2022/03/24/the-mondrianomies/)
+A complete explanation of the experiment can be found [at fronkonstin](https://fronkonstin.com/2022/03/25/the-mondrianomies/)
 
 ## Authors
 
